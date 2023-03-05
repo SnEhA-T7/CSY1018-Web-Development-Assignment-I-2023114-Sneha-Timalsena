@@ -1,0 +1,55 @@
+.nav-bar{
+    display:flex;
+    justify-content:center;
+    background-color:grey ;
+    padding:8px;
+}
+
+.nav-menu{
+    list-style-type:none;
+    padding:15px;
+}
+
+.nav-menu-item{
+    display:inline;
+}
+
+.nav-menu-item a{
+    text-decoration:wavy;
+    color:black;
+    margin:0 10px;
+    padding:10px 20px;
+}
+
+.nav-menu-item:hover{
+    background-color:white;
+    padding:30px;
+    border-radius:15px;
+}
+
+.active{
+    border-bottom:3px solid black;
+}
+
+.home{
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    height:500px;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    text-align:center;
+    margin:40px 0px;
+    -webkit-text-stroke:1px white;
+    color:transparent;
+}
+
+
+
+
