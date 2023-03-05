@@ -50,6 +50,67 @@
     color:transparent;
 }
 
+ * {
+    box-sizing:border-box;
+    align-items:center;
+    margin:0;
+    padding:2px;
+ }
+
+ body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:whitesmoke;
+ }
+
+ .container{
+    background-color:aliceblue;
+    max-width:400px;
+    margin:0;
+    padding:50px;
+    border-radius:5px;
+    
+}
+
+h1{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    font-weight:bold;
+    margin-bottom:7px;
+}
+
+input,textarea{
+    margin-bottom:15px;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    background-color:white;
+    font-size:16px;
+}
+
+button{
+    padding:5px;
+    border-radius:7px;
+    border:none;
+    background-color:blue;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:blue;
+}
+
+
+
 
 
 
