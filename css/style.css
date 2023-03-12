@@ -4,9 +4,8 @@ body{
     background:linear-gradient(rgb(87, 87, 208),rgb(221, 83, 106));
 }
 
-
-
 /* For Navigation Bar */
+
 .nav-bar{
     display:flex;
     justify-content:center;
@@ -223,10 +222,40 @@ img{
 
 /*For Work Experience Page */
 
-.workexperience{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:white;
+.work{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    max-width:2000px;
+    margin:0 auto;
 }
+.column{
+    flex-basis:35%;
+    margin:10px;
+    background-color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius:15px;
+    box-shadow:5px 0px 5px 0px;
+    padding:35px;
+}
+
+.column h2{
+    font-size:25px;
+    margin-bottom:15px;
+}
+
+.column p{
+    font-size:18px;
+    line-height:1.5;
+}
+
+@media (max-width:777px){
+    .column{
+        flex-basis:100%;
+    }
+}
+
+
 
 
 
