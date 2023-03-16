@@ -255,6 +255,19 @@ img{
     }
 }
 
+/* For Site Report */
+
+.report{
+    width:95%;
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+    border-radius:50px;
+    padding:5px;
+    height:75vh;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 
