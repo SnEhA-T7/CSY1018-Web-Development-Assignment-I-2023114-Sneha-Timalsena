@@ -1,6 +1,6 @@
 body{
     width:100%;
-    height:115vh;
+    height:100%;
     background:linear-gradient(rgb(87, 87, 208),rgb(221, 83, 106));
 }
 
@@ -71,7 +71,7 @@ nav ul li a{
         position:fixed;
         width:100%;
         height:100vh;
-        background: #776b7b;
+        background:#986b7b;
         top:80px;
         left:100%;
         text-align:center;
@@ -132,7 +132,7 @@ nav ul li a{
     display:flex;
     align-items:center;
     justify-content:space-around;
-    position:absolute;
+    position:fixed;
     bottom:-28px;
 }
 
@@ -180,67 +180,74 @@ nav ul li a{
 
  /* For Contact Page */
 
- .contact{
-    box-sizing:border-box;
-    align-items:center;
-    margin:0;
-    padding:2px;
+ .contact-sec{
+    height:100vh;
     display:flex;
-    flex-direction:column;
-    height:525px;
     justify-content:center;
-    
+    align-items:center;
+}
+
+.contact-info{
+    color:white;
+    max-width:500px;
+    line-height:65px;
+    padding-left:50px;
+    font-size:18px;
+}
+  
+.contact-info i{
+    margin-right:20px;
+    font-size:25px;
 }
 
  .container{
     background-color:white;
-    margin:1000px;
-    padding:35px;
+    margin:15px;
+    padding:25px;
     border-radius:50px;
-}
-
-h1{
-    color:black;
-    text-align:center;
-    margin-bottom:20px;
+    
 }
 
 form{
     display:flex;
     flex-direction:column;
-
 }
 
 label{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bold;
-    margin-bottom:10px;
+    margin-bottom:18px;
 }
 
 input,textarea{
-    margin-bottom:10px;
-    padding:10px;
-    border-radius:15px;
+    margin-bottom:15px;
+    padding:13px;
+    border-radius:10px;
     border:none;
     background-color:pink;
     font-size:16px;
 }
-
-button{
-    padding:10px;
-    border-radius:7px;
-    border:none;
-    background-color:pink;
-    color:black;
-    font-size:16px;
-    cursor:pointer;
-}
-
 button:hover{
-    background-color:purple;
-    
-
+    background-color:pink;
 }
+
+@media screen and (max-width: 960px){
+    .contact-sec{
+        flex-direction:column;
+    }
+
+    .contact-info, .container{
+        margin: 30px 50px;
+    }
+
+    .container h1{
+        font-size:30px;
+    }
+
+    .container .text-box{
+        width:100%;
+    }
+}
+
 
 
 /* For portfolio page */
@@ -318,16 +325,22 @@ img{
 /* For Site Report */
 
 .report{
-    width:95%;
-    border-style:solid;
-    border-color:white;
-    border-width:5px;
-    border-radius:50px;
-    padding:5px;
-    height:75vh;
+    width:100%;
+    height:644vh;
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing:border-box;
+    border:solid black 5px;
+    padding:5px;
 }
+
+
+.progress{
+    width: 400px;
+    height:399px;
+}
+
+
 
 
 
